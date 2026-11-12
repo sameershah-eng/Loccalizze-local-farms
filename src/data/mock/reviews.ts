@@ -1,0 +1,81 @@
+import { Review } from '../../types';
+
+export const INITIAL_REVIEWS: Review[] = [
+  {
+    id: 'rev-1',
+    farmId: 'farm-1',
+    author: 'Emily K.',
+    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80',
+    rating: 5,
+    date: '3 days ago',
+    comment: 'The heirloom tomatoes from Sarah taste like real sunshine. We made panzanella salad on Sunday and the whole family was blown away. Picking up at the farm barn is our weekend highlight.',
+    verifiedShopper: true,
+  },
+  {
+    id: 'rev-2',
+    farmId: 'farm-1',
+    author: 'David R.',
+    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80',
+    rating: 5,
+    date: '1 week ago',
+    comment: 'Pasture eggs with yolks so deep orange they look like marigolds. Packed with care in compostable cartons. Knowing Sarah and her crew makes buying food feel human again.',
+    verifiedShopper: true,
+  },
+  {
+    id: 'rev-3',
+    farmId: 'farm-1',
+    author: 'Jessica Morales',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+    rating: 5,
+    date: '2 weeks ago',
+    comment: 'Super crisp baby spinach that stays fresh for over 10 days in the crisper because it was literally harvested the morning I picked it up.',
+    verifiedShopper: true,
+  },
+  {
+    id: 'rev-4',
+    farmId: 'farm-3',
+    author: 'Robert Sterling',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+    rating: 5,
+    date: '5 days ago',
+    comment: 'Clara’s raw wildflower honey has subtle lavender and horsemint notes that store honey cannot begin to replicate. True liquid gold.',
+    verifiedShopper: true,
+  },
+  {
+    id: 'rev-5',
+    farmId: 'farm-2',
+    author: 'Amanda V.',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80',
+    rating: 5,
+    date: '1 week ago',
+    comment: 'Best peaches in Texas, bar none. Sweet juice ran all over the kitchen counter. We ordered 10 pounds and canned half of them.',
+    verifiedShopper: true,
+  },
+];
+
+export const TESTIMONIALS = [
+  {
+    quote: "Loccalizze completely shifted how my family eats. Instead of supermarket produce that traveled 2,000 miles in refrigeration, we eat greens picked five hours ago.",
+    name: "Dr. Elena Vasquez",
+    role: "Pediatrician & Local Food Advocate",
+    location: "Austin, TX",
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+    rating: 5,
+  },
+  {
+    quote: "As a small 12-acre grower, standing at cold weekend markets was exhausting. Loccalizze lets our neighbors pre-order their weekly crates for seamless farmstand pickup.",
+    name: "Marcus Lindemann",
+    role: "Grower, Sunny Acres Orchard",
+    location: "Fredericksburg, TX",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    rating: 5,
+  },
+  {
+    quote: "The transparency is extraordinary. I can see exactly who planted my food, their soil practices, and pickup hours. My kids now love visiting the farms.",
+    name: "Jonathan Ward",
+    role: "Home Chef & Father of Three",
+    location: "Brenham, TX",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+    rating: 5,
+  },
+];

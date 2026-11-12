@@ -1,0 +1,6 @@
+{
+  "name": "Loccalizze",
+  "description": "Discover local farms and buy fresh seasonal produce directly from your neighbors. Or list your own farm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
